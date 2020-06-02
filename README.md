@@ -1,4 +1,4 @@
-# ATtiny85_DCF77
+# Digispark_DCF77
 A Digispark is used to evaluate a DCF77 module. The sketch is based on the InternalClockSync example the library
 
 https://github.com/thijse/Arduino-DCF77
