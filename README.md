@@ -1,9 +1,10 @@
 # Digispark_DCF77
 A Digispark is used to evaluate a DCF77 module. The sketch is based on the InternalClockSync example the library
 
-https://github.com/thijse/Arduino-DCF77
+https://github.com/thijse/Arduino-DCF77/
 
 It is modified to output the time to a software serial on pins P0 and P1.
+The library itself is needed in order for the sketch to work.
 
 As the compiled sketch uses more flash than available with the bootlader, it must be programmed with an ISP, omitting the bootloader. I have used the ATtiny board definitions from
 
