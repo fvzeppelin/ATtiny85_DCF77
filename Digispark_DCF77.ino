@@ -32,6 +32,8 @@ DCF77 DCF = DCF77(DCF_PIN,DCF_INTERRUPT);
 void setup() {
   mySerial.begin(9600);
   pinMode(P1_PIN, OUTPUT);
+  digitalWrite(P1_PIN, HIGH); 
+  delay(1000); 
   digitalWrite(P1_PIN, LOW); 
   DCF.Start();
   mySerial.println("Waiting for DCF77 time ... ");
